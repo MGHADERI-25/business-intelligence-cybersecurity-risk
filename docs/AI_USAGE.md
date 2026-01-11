@@ -4,20 +4,39 @@
 Business Intelligence for Data-Driven Management  
 MSc IT for Business Data Analytics — IBS Budapest
 
-## Permitted Level of AI Use
-Course AI policy level: **TO BE CONFIRMED**.
+---
 
-Until confirmed, this repository documents AI use conservatively and transparently.
+## Summary
 
-## How AI tools were used (if applicable)
-AI tools may have been used to support:
-- outlining documentation structure
-- improving clarity of explanations and formatting
-- checking wording for professionalism
+AI tools were used in a limited, supportive capacity to improve clarity and presentation quality (e.g., wording refinement and structure).  
+All analytical decisions, dashboard design choices, and conclusions remain the author’s independent work.
+
+---
+
+## How AI tools were used (supportive use)
+
+AI tools may have been used to assist with:
+- improving writing clarity and professional tone
+- reorganizing sections for readability
+- summarizing or rephrasing content without changing meaning
+- formatting documentation (README and repo structure)
+
+---
 
 ## How AI tools were not used
-AI tools were not used to fabricate results, invent data, or claim performance not produced by actual work.
+
+AI tools were not used to:
+- fabricate metrics, outcomes, or insights
+- generate dashboards or charts automatically without author control
+- invent data sources
+- misrepresent results as if they were produced by the tool
+
+---
 
 ## Responsibility statement
-The author is fully responsible for the analysis, dashboard design choices, and conclusions presented in this repository.
 
+The author takes full responsibility for:
+- data selection and source referencing
+- Power BI modelling and dashboard implementation
+- interpretation and conclusions
+- compliance with academic integrity requirements
