@@ -1,3 +1,15 @@
+# Power BI autosave & cache
+*.pbix~
+*.pbit~
+**/.pbi/
+**/.pbi/*
+**/.powerbi/
+**/.powerbi/*
+
+# Exports / outputs (generated)
+exports/
+outputs/
+
 # Data (ignore by default)
 data/raw/**
 data/**/*.csv
