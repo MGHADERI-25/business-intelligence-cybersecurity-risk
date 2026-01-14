@@ -7,8 +7,8 @@
 **/.powerbi/*
 
 # Exports / outputs (generated)
-exports/
-outputs/
+/exports/
+/outputs/
 
 # Data (ignore by default)
 data/raw/**
