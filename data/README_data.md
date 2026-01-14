@@ -1,35 +1,39 @@
-# Data Sources and Handling
+# Data Notes
 
-## Public datasets referenced
+## Included datasets (CC0)
 
-This project references the following **publicly available datasets**, as cited in the written report and presentation:
+This repository includes the public datasets used to build the Power BI dashboards.  
+All datasets were obtained from Kaggle and are released under **CC0 (Public Domain)** licenses.
 
-1) **Corporate Cyber Incidents Dataset**  
-Link: https://www.kaggle.com/datasets/alperenmyung/corporate-cyber-security-analytics
+### 1) Corporate Cyber Security Analytics
+Files included:
+- `data/raw/corporate_cyber_security_analytics/assets.csv`
+- `data/raw/corporate_cyber_security_analytics/employees.csv`
+- `data/raw/corporate_cyber_security_analytics/incidents.csv`
+- `data/raw/corporate_cyber_security_analytics/threats.csv`
 
-2) **Global Cybersecurity Threats (2015–2024)**  
-Link: https://www.kaggle.com/datasets/atharvasoundankar/global-cybersecurity-threats-2015-2024
+Note:
+- Any `.db` file that may come with the dataset is **not committed** (not required for reproducibility).
 
-3) **World Sustainability and Governance Indicators**  
-Link: https://www.kaggle.com/datasets/truecue/worldsustainabilitydataset
+Source:
+- https://www.kaggle.com/datasets/alperenmyung/corporate-cyber-security-analytics
 
----
+### 2) Global Cybersecurity Threats (2015–2024)
+File included:
+- `data/raw/global_cybersecurity_threats_2015_2024/Global_Cybersecurity_Threats_2015-2024.csv`
 
-## Data handling approach
+Source:
+- https://www.kaggle.com/datasets/atharvasoundankar/global-cybersecurity-threats-2015-2024
 
-- All datasets listed above are **publicly available** and were accessed via Kaggle.
-- The datasets are referenced for transparency and academic citation.
-- This repository focuses on **business intelligence design, modelling, and insight communication** rather than redistributing raw datasets.
-- Raw datasets are **not republished** here unless explicitly permitted by their respective licenses.
+### 3) World Sustainability and Governance Indicators
+Files included:
+- `data/raw/world_sustainability_dataset/WorldSustainabilityDataset.csv`
+- `data/raw/world_sustainability_dataset/Data_Dictionary.xlsx`
 
----
+Source:
+- https://www.kaggle.com/datasets/truecue/worldsustainabilitydataset
 
-## Power BI note
-
-The Power BI (`.pbix`) file included in this repository contains the finalized dashboard created for this project.
-
-Depending on Power BI configuration, datasets may be:
-- imported and embedded within the PBIX file, or
-- referenced during development using the sources listed above.
-
-For full dataset details and context, refer to the original Kaggle links.
+## Notes on use
+- These datasets are included to support reproducibility of the Power BI work.
+- The repository does not contain personal data, tokens, or confidential information.
+- Transformations and modelling steps are performed inside the Power BI dashboard.
