@@ -8,10 +8,16 @@
 
 ## 1. Project Overview
 
-This project delivers a multi-layered **Business Intelligence** analysis of cybersecurity risk using **Power BI**.  
-The work combines dashboard design, risk-focused KPIs, and executive storytelling to support **data-driven management decisions**.
+This project delivers a multi-layered **Business Intelligence (BI)** analysis of cybersecurity risk using **Power BI**.  
+The work combines dashboard design, risk-oriented KPIs, and executive storytelling to support **data-driven management decisions** in a cybersecurity context.
 
-Deliverables included:
+The project emphasizes:
+- integrating multiple public data sources,
+- designing interpretable dashboards,
+- communicating insights to non-technical stakeholders,
+- supporting strategic and operational decision-making.
+
+**Deliverables included:**
 - Power BI dashboard (`.pbix`)
 - Presentation (`.pptx`)
 - Written report (DOCX + PDF)
@@ -20,14 +26,20 @@ Deliverables included:
 
 ## 2. Dashboard Pages (Power BI)
 
-The Power BI file includes four dashboard pages:
+The Power BI dashboard contains four main pages:
 
-1. Corporate Cyber Dashboard  
-2. Global Threats Dashboard  
-3. Global Risk Dynamics Dashboard  
-4. Global Maps Dashboard  
+1. **Corporate Cyber Dashboard**  
+2. **Global Threats Dashboard**  
+3. **Global Risk Dynamics Dashboard**  
+4. **Global Maps Dashboard**
 
-Screenshots are available in: `dashboards/exports/`
+Exported dashboard screenshots are available for preview in:
+
+```
+
+dashboards/exports/
+
+````
 
 ---
 
@@ -36,13 +48,14 @@ Screenshots are available in: `dashboards/exports/`
 ```text
 business-intelligence-cybersecurity-risk/
 ├─ dashboards/
-│  ├─ powerbi/           # PBIX file
-│  └─ exports/           # dashboard screenshots (PNG)
-├─ presentation/         # PPTX deliverable
+│  ├─ powerbi/                 # Power BI (.pbix) file
+│  └─ exports/                 # dashboard screenshots (PNG)
+├─ presentation/               # presentation deliverable (PPTX)
 ├─ report/
-│  └─ final/             # DOCX + PDF report
+│  └─ final/                   # written report (DOCX + PDF)
 ├─ data/
-│  └─ README_data.md     # dataset sources and handling notes
+│  ├─ raw/                     # included CC0 datasets
+│  └─ README_data.md           # dataset references and notes
 └─ docs/
    ├─ AI_USAGE.md
    └─ ACADEMIC_INTEGRITY.md
@@ -50,13 +63,21 @@ business-intelligence-cybersecurity-risk/
 
 ---
 
-## 4. Data Sources
+## 4. Data
 
-This project references **publicly available datasets** related to cybersecurity incidents, global threats, and governance indicators.
+The datasets used in this project are **included in the repository** under:
 
-Full dataset references and handling notes are documented in:
+```
+data/raw/
+```
+
+All datasets originate from publicly available **Kaggle** sources and are released under **CC0 (Public Domain)** licenses, which permit redistribution and reuse.
+
+Detailed dataset descriptions, file lists, and source references are provided in:
 
 * `data/README_data.md`
+
+No personal, confidential, or sensitive information is contained in the data.
 
 ---
 
@@ -65,16 +86,21 @@ Full dataset references and handling notes are documented in:
 ### Option A — Open the Power BI file (recommended)
 
 1. Install **Power BI Desktop** (Windows).
-2. Open:
+2. Open the dashboard file:
 
-   * `dashboards/powerbi/cybersecurity_risk_dashboard.pbix`
+```
+dashboards/powerbi/cybersecurity_risk_dashboard.pbix
+```
+
 3. Navigate through the four dashboard pages listed above.
 
 ### Option B — View exported screenshots
 
-If Power BI Desktop is not available, you can view dashboard screenshots in:
+If Power BI Desktop is not available, you can review static dashboard previews in:
 
-* `dashboards/exports/`
+```
+dashboards/exports/
+```
 
 ---
 
@@ -91,5 +117,6 @@ Grades, rubrics, and instructor feedback are intentionally excluded.
 
 ## 7. Notes
 
-* The Power BI file does not contain private or sensitive information.
-* The repository focuses on **business intelligence design, interpretation, and communication**, rather than raw data redistribution.
+* The Power BI file does **not** contain private credentials, embedded tokens, or personal identifiers.
+* The focus of this repository is on **business intelligence design, interpretation, and communication**, rather than raw data collection.
+* All analytical transformations are implemented within Power BI.
