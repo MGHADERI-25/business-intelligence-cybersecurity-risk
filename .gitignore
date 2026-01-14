@@ -6,9 +6,23 @@
 **/.powerbi/
 **/.powerbi/*
 
-# Exports
-exports/
-outputs/
+# Exports / outputs (generated)
+/exports/
+/outputs/
 
-# Data (if embedded externally later)
+# Data (ignore by default)
 data/raw/**
+data/**/*.csv
+data/**/*.xlsx
+data/**/*.db
+
+# Allowlist: CC0 datasets included for reproducibility
+!data/raw/corporate_cyber_security_analytics/assets.csv
+!data/raw/corporate_cyber_security_analytics/employees.csv
+!data/raw/corporate_cyber_security_analytics/incidents.csv
+!data/raw/corporate_cyber_security_analytics/threats.csv
+
+!data/raw/global_cybersecurity_threats_2015_2024/Global_Cybersecurity_Threats_2015-2024.csv
+
+!data/raw/world_sustainability_dataset/WorldSustainabilityDataset.csv
+!data/raw/world_sustainability_dataset/Data_Dictionary.xlsx
