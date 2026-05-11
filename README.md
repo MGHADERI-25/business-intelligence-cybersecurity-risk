@@ -1,5 +1,7 @@
 # Cybersecurity Risk Intelligence — Business Intelligence with Power BI
 
+![Project Banner](Supporting-Material/project-banner.png)
+
 **Course:** Business Intelligence for Data-Driven Management  
 **Program:** MSc IT for Business Data Analytics — IBS Budapest  
 **Author:** Mohammadali Ghaderi
